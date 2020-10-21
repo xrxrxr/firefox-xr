@@ -1,11 +1,30 @@
 # firefox-xr
 
-![N|Solid](https://media.giphy.com/media/2sXdFaaleaCEGqWAdF/giphy.gif)
+![N|Solid](https://media.giphy.com/media/Ti1dpOjRAGEbcf7cOG/giphy-downsized-large.gif)
 
-# nothing to see here not finish yet
+### Install all addons and create a profile "user"
+```
+git clone https://github.com/xrxrxr/firefox-xr.git
+```
 
+```
+cd firefox-xr
+```
+```
+sh ./firefox-install-all.sh
+```
 
-### my scritpt config firefox 
+### open firefox and select your new profile
+```
+about:profiles
+```
+### copy the pref file to the profile created
+```
+cp ~/firefox-xr/pref.js  /home/neon/.cache/mozilla/firefox/bh81ajej.user/pref.js
+
+```
+
+### my scritpt config firefox for linux env
 
 
 **Free Software, Hell Yeah!**
